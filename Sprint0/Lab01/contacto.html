@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elegance</title>
+    <title>Contacto - Elegance</title>
+    <meta name="description" content="Contáctanos para más información sobre nuestros productos y servicios.">
+    <meta name="keywords" content="contacto, Elegance, formulario, atención al cliente">
+    <meta property="og:title" content="Contacto - Elegance">
+    <meta property="og:description" content="Ponte en contacto con Elegance para cualquier duda o consulta.">
+    <meta property="og:image" content="img/contacto.jpg">
+    <meta property="og:type" content="website">
 </head>
 <body>
-    
+    <header>
+        <img src="img/logo.png" alt="Logo de Elegance" width="100">
+        <h1>Elegance</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section>
+            <h2>Horarios de Atención</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes a Viernes</td>
+                        <td>10:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sábados</td>
+                        <td>10:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>Domingos</td>
+                        <td>Cerrado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Ubicación</h2>
+            <p>Dirección: Calle de la Moda, 123, Madrid, España</p>
+            <img src="img/mapa.jpg" alt="Mapa de ubicación de la tienda Elegance" width="600">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Elegance. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <address>
+            Contacto: info@elegance.com
+        </address>
+    </footer>
 </body>
 </html>

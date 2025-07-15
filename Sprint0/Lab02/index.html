@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería de Arte</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <h1 class="logo">ArteVivo</h1>
+      <ul class="nav-menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#info">Sobre Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="banner-text">
+      <h2>Explora el Arte Contemporáneo</h2>
+      <p>Una experiencia visual única</p>
+    </div>
+  </section>
+
+  <main>
+    <section id="galeria" class="galeria">
+      <h2>Galería de Obras</h2>
+      <div class="grid-galeria">
+        <div class="obra">
+          <img src="./img/obra1.jpg" alt="Obra 1" />
+          <p class="info-hover">“Horizonte” de L. Martínez</p>
+        </div>
+        <div class="obra">
+          <img src="./img/obras2.jpg" alt="Obra 2" />
+          <p class="info-hover">“Luz Interior” de A. Torres</p>
+        </div>
+        <div class="obra">
+          <img src="./img/obras3.jpg" alt="Obra 3" />
+          <p class="info-hover">“Abstracto No. 7” de E. Ruiz</p>
+        </div>
+        <div class="obra">
+          <img src="./img/obras4.jpg" alt="Obra 4" />
+          <p class="info-hover">“Naturaleza Viva” de M. Díaz</p>
+        </div>
+        <div class="obra">
+          <img src="./img/obras5.jpg" alt="Obra 5" />
+          <p class="info-hover">“Ritmo Urbano” de S. López</p>
+        </div>
+        <div class="obra">
+          <img src="./img/obras6.jpg" alt="Obra 6" />
+          <p class="info-hover">“Fragmentos” de V. Romero</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info-section">
+      <img src="./img/galeria.jpg" alt="Galería" class="float-img" />
+      <div class="info-text">
+        <h2>Sobre la Galería</h2>
+        <p>ArteVivo es una galería moderna que promueve artistas emergentes y consolidados. Ubicada en el corazón de la ciudad, ofrecemos exposiciones temporales y permanentes para todos los amantes del arte.</p>
+      </div>
+      <div class="clearfix"></div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="asunto" />
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <p>© 2025 ArteVivo. Todos los derechos reservados.</p>
+      <ul class="social">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+      <ul class="sitemap">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Galería</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
